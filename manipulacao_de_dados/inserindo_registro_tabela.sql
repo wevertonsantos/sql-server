@@ -25,3 +25,10 @@ INSERT INTO TB_CLIENTE
 (NOME,CPF,DATA_NASCIMENTO,EMAIL)
 VALUES
 ('Maria Almeida','22222222222','1981-01-23 11:23:45','maria@email.com')
+
+/* 
+Insert posicional (seguindo a ordem)
+*/
+INSERT INTO TB_CLIENTE
+VALUES
+('Maria Almeida','22222222222','1981-01-23 11:23:45','maria@email.com')
