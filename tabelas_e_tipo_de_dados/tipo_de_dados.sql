@@ -5,6 +5,11 @@ int - -2^31 até 2^31
 smallint - -2^15 até 2^15
 tinyint - 0 até 255
 
+decimal (10,2) - (precisão,escala)
+numeric (10,2) - (precisão,escala)
+money (10,2) - (precisão,escala)
+smallmoney (10,2) - (precisão,escala)
+
 Tipo booleano
 bit - armazena 0 = false
 bit - armazena 1 = verdadeiro
