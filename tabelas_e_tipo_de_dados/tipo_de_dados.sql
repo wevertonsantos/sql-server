@@ -43,4 +43,12 @@ text - 2^31 quantidade de caracteres aceitos
 nchar - aceita 4000 caracteres
 nvachar - aceita 4000 caracteres
 ntext - aceita 2^31 - 1
+
+Campo de autonumeração
+ex: PRODUTO_ID INT IDENTITY(1,1) - (começa em 1, incrementa 1 em 1) aumenta de 1 em 1 (você pode escolher os parâmetros)
+ex: PRODUTO_ID int IDENTITY(1001,1) - (começa em 1, incrementa 1 em 1) aumenta de 1 em 1
+
+Campo de Nulabilidade
+por padrão é ex: PRODUTO_ID INT NOT NULL
+para criar que aceita nullos é ex: PRODUTO_ID INT NULL
 */
