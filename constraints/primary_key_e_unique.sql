@@ -20,3 +20,6 @@ CREATE TABLE TB_CLIENTE
     CPF VARCHAR(12) NOT NULL,
     CONSTRAINT UQ_CLIENTE_CPF UNIQUE(CPF) -- não aceita duplicidades e faz função de primary key sem ser 
 )
+
+ALTER TABLE TB_CLIENTE -- Altera uma tabela e adiciona constraint em um campo já existente
+ADD CONSTRAINT UQ_CLIENTE_CPF UNIQUE(CPF)
