@@ -12,6 +12,9 @@ CREATE TABLE TB_PRODUTO
     CONSTRAINT PK_PRODUTO PRIMARY KEY (PRODUTO_ID) -- declarando PRODUTO_ID como uma chave primária (não permite valores duplicados)
 )
 
+ALTER TABLE TB_PRODUTO -- Altera uma tabela e adiciona constraint em um campo já existente
+ADD CONSTRAINT PK_PRODUTO PRIMARY KEY(PRODUTO_ID)
+
 CREATE TABLE TB_CLIENTE
 (
     CPF VARCHAR(12) NOT NULL,
