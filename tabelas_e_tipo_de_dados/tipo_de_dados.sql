@@ -38,4 +38,9 @@ char (8000) - para quantidade máxima
 varchar (4) - varchar de 4 caracteres - tem comprimento variável
 varchar (MAX) - para quantidade máxima
 text - 2^31 quantidade de caracteres aceitos
+
+"n" - representa unicode
+nchar - aceita 4000 caracteres
+nvachar - aceita 4000 caracteres
+ntext - aceita 2^31 - 1
 */
