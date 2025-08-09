@@ -14,4 +14,9 @@ Tipo booleano
 bit - armazena 0 = false
 bit - armazena 1 = verdadeiro
 bit - armazena null
+
+Tipo binários
+binary(50)
+varbinary(50)
+image
 */
