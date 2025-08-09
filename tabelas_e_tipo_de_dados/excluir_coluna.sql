@@ -1,0 +1,8 @@
+CREATE TABLE TB_ENDERECO
+(
+    ENDERECO_ID INT IDENTITY(1,1)
+)
+
+-- Excluindo coluna em uma tabela existente
+ALTER TABLE TB_ENDERECO
+DROP DATA_CRIACAO
