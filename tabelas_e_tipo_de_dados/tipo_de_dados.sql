@@ -31,4 +31,11 @@ datetime2 - 01-01-0001 até 31-12-9999, hora: 00:00 até 23:59:59.9999999
 datetimeoffset - 01-01-0001 até 31-12-9999, hora: 00:00 até 23:59:59.9999999 e armazena o fuso horário
 smalldatetime - 01-01-1900 até 06-06-2079 hora de 00:00 até 23:59:59
 time - armazena somente a hora, hora de 00:00 até 23:59:59:9999999
+
+Tipos de dado de caracteres
+char (4) - char de 4 caracteres - tem comprimento fixo
+char (8000) - para quantidade máxima
+varchar (4) - varchar de 4 caracteres - tem comprimento variável
+varchar (MAX) - para quantidade máxima
+text - 2^31 quantidade de caracteres aceitos
 */
