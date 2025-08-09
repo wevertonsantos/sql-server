@@ -11,3 +11,9 @@ CREATE TABLE TB_PRODUTO
     PRODUTO_ID INT IDENTITY(1,1), 
     CONSTRAINT PK_PRODUTO PRIMARY KEY (PRODUTO_ID) -- declarando PRODUTO_ID como uma chave primária (não permite valores duplicados)
 )
+
+CREATE TABLE TB_CLIENTE
+(
+    CPF VARCHAR(12) NOT NULL,
+    CONSTRAINT UQ_CLIENTE_CPF UNIQUE(CPF) -- não aceita duplicidades e faz função de primary key sem ser 
+)
