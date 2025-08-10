@@ -13,3 +13,9 @@ WHERE ESTADO = 'SP' -- Onde estado na TB_CLIENTE é SP
 
 /* Update com TOP */
 
+UPDATE TOP(1) TB_CLIENTE_SP
+SET DATA_CRIACAO = '2022-11-12 12:13:40'
+
+-- Delete com TOP
+
+DELETE TOP(2) FROM TB_CLIENTE_SP
