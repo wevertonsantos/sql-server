@@ -9,3 +9,6 @@ GROUP BY NumeroPedido -- Agrupando pelo número do pedido
 
 SELECT NumeroPedido, SUM(PRECO) FROM TB_DETALHE_PEDIDO -- SUM - Soma
 GROUP BY NumeroPedido -- Agrupando pelo número do pedido
+
+SELECT NumeroPedido, COUNT(*) FROM TB_DETALHE_PEDIDO -- COUNT - Ele irá contar e mostrar o total
+GROUP BY NumeroPedido -- Agrupando pelo número do pedido
