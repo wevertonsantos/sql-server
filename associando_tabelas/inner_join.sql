@@ -1,4 +1,6 @@
-/* Inner Join */
+/*
+Inner Join - trás os itens que existem em ambas as tabelas
+*/
 
 SELECT C.NomeCompleto, C.Cargo, C.Contato, E.Logradouro, E.Cidade, E.Pais
 FROM TB_CLIENTE C
