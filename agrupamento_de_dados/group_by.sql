@@ -1,0 +1,2 @@
+SELECT MAX(PRECO) FROM TB_DETALHE_PEDIDO -- Maior preço
+WHERE NumeroPedido = 10249
