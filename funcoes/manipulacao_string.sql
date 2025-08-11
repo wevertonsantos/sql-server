@@ -15,3 +15,5 @@ PRINT LEN('TESTE') -- Tamanho da string
 
 PRINT UPPER('teste') -- transforma string em caixa alta
 PRINT LOWER('TESTE') -- transforma string em caixa baixa
+
+PRINT REPLICATE('Q',40) -- Replicar algum caractere
