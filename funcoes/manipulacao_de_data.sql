@@ -22,3 +22,5 @@ SELECT YEAR(GETDATE()) -- Retorna um inteiro de apenas o ano da data
 SELECT DATEDIFF(HOUR,'2000-01-01','2000-03-03') -- Trás a diferente entre as duas datas em horas
 
 SELECT DATEADD(DAY,10,GETDATE()) -- Adicionando 10 dias no dia de hoje
+
+PRINT ISDATE('2000-13-44') -- Verifica se é data irá retornar 0 - false ou 1 - true
