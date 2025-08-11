@@ -19,3 +19,5 @@ PRINT LOWER('TESTE') -- transforma string em caixa baixa
 PRINT REPLICATE('Q',40) -- Replicar algum caractere
 
 PRINT REPLACE('TESTE','T','M') -- Trocar na string TESTE o T pelo M
+
+PRINT REVERSE('TESTE') -- Escrever string com reverse
