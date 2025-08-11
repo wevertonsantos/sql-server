@@ -10,3 +10,10 @@ FROM TB_CLIENTE C
 WHERE EXISTS (SELECT * FROM TB_PEDIDO P
              WHERE C.ClienteId = P.ClienteId
              AND P.DataPedido BETWEEN '1996-07-01' AND '1996-07-31')
+
+-- Traga o nome e o total de pedidos de cada cliente
+
+SELECT  C.NomeCompleto,
+        (SELECT COUNT(*) FROM TB_PEDIDO P WHERE P.ClienteId = C.ClienteId) [Total Pedidos]
+FROM TB_CLIENTE C
+ORDER BY [Total Pedidos]
