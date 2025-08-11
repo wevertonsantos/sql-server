@@ -10,3 +10,5 @@ PRINT LEFT('TESTE',3) -- Retorna os caracteres vindo da esquerda da string
 PRINT RIGHT('TESTE',3) -- Retorna os caracteres vindo da direita da string
 
 PRINT SUBSTRING('TESTES',1,3) -- Retorna a fatia da string, nesse exemplo ele começa na 1 e vai até o 3º caracter
+
+PRINT LEN('TESTE') -- Tamanho da string
