@@ -3,3 +3,5 @@ SELECT SYSDATETIMEOFFSET() -- Trás a data do sistema e fusos horários em rela�
 SELECT SYSUTCDATETIME() -- Trás o horário de greenwich
 
 SELECT CURRENT_TIMESTAMP() -- Trás data do sistema
+
+SELECT GETDATE() -- Trás data de agora do sistema
