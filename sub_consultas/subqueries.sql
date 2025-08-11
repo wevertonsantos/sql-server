@@ -2,3 +2,11 @@
 
 SELECT P.Descricao FROM TB_PRODUTO P
 WHERE P.Preco > (SELECT AVG(P2.Preco) FROM TB_PRODUTO P2)
+
+-- Traga todos os clientes que exista pedidos no mês 7 de 1996
+
+SELECT C.*
+FROM TB_CLIENTE C
+WHERE EXISTS (SELECT * FROM TB_PEDIDO P
+             WHERE C.ClienteId = P.ClienteId
+             AND P.DataPedido BETWEEN '1996-07-01' AND '1996-07-31')
