@@ -18,3 +18,5 @@ SELECT DATEPART(WEEKDAY,GETDATE()) -- Retorna um inteiro com o dia da semana
 SELECT DAY(GETDATE()) -- Retorna um inteiro de apenas o dia da data
 SELECT MONTH(GETDATE()) -- Retorna um inteiro de apenas o mês da data
 SELECT YEAR(GETDATE()) -- Retorna um inteiro de apenas o ano da data
+
+SELECT DATEDIFF(HOUR,'2000-01-01','2000-03-03') -- Trás a diferente entre as duas datas em horas
