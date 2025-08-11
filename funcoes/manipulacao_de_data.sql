@@ -5,3 +5,4 @@ SELECT SYSUTCDATETIME() -- Trás o horário de greenwich
 SELECT CURRENT_TIMESTAMP() -- Trás data do sistema
 
 SELECT GETDATE() -- Trás data de agora do sistema
+SELECT GETUTCDATE() -- Horário de greenwich com menor precisão
