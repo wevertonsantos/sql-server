@@ -12,3 +12,5 @@ SELECT DATENAME(MONTH,GETDATE()) -- Retorna o mês
 SELECT DATENAME(DAY,GETDATE()) -- Retorna o dia 
 SELECT DATENAME(WEEK,GETDATE()) -- Retorna a semana do mês 
 SELECT DATENAME(WEEKDAY,GETDATE()) -- Retorna o dia da semana 
+
+SELECT DATEPART(WEEKDAY,GETDATE()) -- Retorna um inteiro com o dia da semana
