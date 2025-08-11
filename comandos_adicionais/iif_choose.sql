@@ -12,3 +12,5 @@ O comando CHOOSE age com um índice em uma lista de valores. O argumento índice
 
 CHOOSE(<indice>,<valor_1>,<valor_2>[,<valor_n>])
 */
+
+SELECT CHOOSE(3,'PRIMEIRO','SEGUNDO','TERCEIRO','QUARTO','QUINTO') -- Escolhe o que vem na N posição, aqui no caso é a terceira
