@@ -1,0 +1,6 @@
+-- Função tabular inline
+
+CREATE FUNCTION ListarPedidosCliente(@CLIENTE_ID AS VARCHAR (15))
+RETURNS TABLE
+AS
+RETURN SELECT * FROM TB_PEDIDO WHERE ClienteId = @CLIENTE_ID;
