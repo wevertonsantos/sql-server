@@ -1,0 +1,8 @@
+IF <condicao>
+    BEGIN
+        <codigo>
+    END
+ELSE
+    BEGIN
+        <codigo>
+    END
